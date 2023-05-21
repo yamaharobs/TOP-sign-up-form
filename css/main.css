@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url(/webfonts/Norse-Bold.otf);
+}
+
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 950px;
+}
+
+/*====HERO SECTION======*/
+
+.hero {
+    background: center no-repeat url(/images/bckgrnd.jpg);
+    height: 100%;
+    width: 40vw;
+   
+}
+
+.logo-box {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.45);
+    margin-top: 40%;
+    
+}
+img {
+    height: 13rem;
+ }
+
+h1 {
+    color: white;
+    font-family: 'Norse';
+    font-size: 9rem;
+    padding-top: 20px;
+    
+    
+}
+
+/*============TOP SECTION=======*/
+
+.backdrop p {
+    font-size: 2rem;
+   padding: 40px 36% 0 0;
+}
+
+p.top {
+    font-weight: bold;
+    margin-top: 60px;
+    line-height: 1.4;
+}
+
+span {
+    display: block;
+    margin-top: 30px;
+}
+
+/*=======FORM SECTION===========*/
+
+.sign-up-form {
+    height: 100%;
+    background: #f9fafb;
+
+}
+
+.portion {
+    height: 33.3%;
+    padding: 20px 45px;
+}
+
+.form {
+    background: #ffffff;
+    box-shadow: 0 5px 5px #dadbdc;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30%;
+
+
+    
+    
+}
+
+.form h2 {
+    font-size: 2rem;
+    margin: 20px 0 25px;
+    
+}
+
+.sheet {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   height: 100%;
+   
+   
+}
+
+.input-container {
+    margin: 5px 20px 0 0;
+}
+
+input {
+    width: 260px;
+    height: 30px;
+    display: block;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+input:focus {
+    box-shadow: 1px 1px 2px gray;
+    border: 1px solid #1E4ED8;
+}
+
+label {
+    display: block;
+    font-size: 1.3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #1A232F;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*======BOTTOM PORTION=====*/
+
+.create-account-button {
+
+height: 50px;
+width: 235px;
+background-color: #596D48;
+color: #FFFFFF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.7rem;
+letter-spacing: 1px;
+border-radius: 5px;
+box-shadow: 1px 1px 2px gray;
+border: none;
+margin-top: 30px;
+}
+
+.create-account-button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+
+}
+
+.error {
+
+    border: 1px solid red;
+    box-shadow: none;
+
+}
+
+.error-message {
+    margin-top: 5px;
+    color: red;
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .portion {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 888px) {
+    .portion {
+        height: auto;
+    }
+}
+
+@media (max-width: 840px) {
+    
+
+    body {
+        display: block;
+        height: 100vh;
+    }
+    
+    .hero {
+       width: 100%;
+        height: 25vh;
+        background-size: cover;
+    }
+    
+    .logo-box {
+        margin: 0;
+        height: 100%;
+    }
+
+    .backdrop {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 605px) {
+    body {
+        min-width: 605px;
+    }
+}
+
+
+
+
+
+
