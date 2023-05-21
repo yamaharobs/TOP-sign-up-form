@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>TOP Sign Up</title>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="logo-box">
+            <img src="images/odin-logo.png" alt="odin head logo">
+                <h1 class="logo">Odin</h1>
+        </div>
+    </section>
+    <section class="sign-up-form">
+        <section class="backdrop portion">
+            <p class="top"> 
+                This is not a real online service! You know you need
+                something like this in your life to help you realize
+                your deepest dreams. Sign up <i>now</i> to get started.
+                <br>
+                <span>
+                You <i>know</i> you want to.
+                </span>
+            </p>
+        </section>
+        <section class="form portion">
+            <h2>Let's do this!</h2>
+            <form class="sheet" method="post">
+
+                <div class="input-container">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name">
+                </div>
+
+                <div class="input-container">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name">
+                </div>
+
+                <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                </div>
+
+                <div class="input-container">
+                <label for="phone-number">Phone Number</label>
+                <input type="text" id="phone_number" name="phone_number">
+                </div>
+
+                <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <p id='error_message' class="error-message">
+                    * Passwords do not match
+                </p>
+                </div>
+
+                <div class="input-container">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password">
+                </div>
+
+            </form>
+        </section>
+        <section class="backdrop portion">
+            <div class="wrapper">
+                <button id="create_account_button" class="create-account-button">Create Account</button>
+                <p>
+                    Already have an account? <a href="*">Log In</a>
+                </p>
+            </div>
+        </section>
+    </section>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
