@@ -22,7 +22,7 @@ body {
 /*====HERO SECTION======*/
 
 .hero {
-    background: center no-repeat url(/images/bckgrnd.jpg);
+    background: center no-repeat url(bckgrnd.jpg);
     height: 100%;
     width: 40vw;
    
